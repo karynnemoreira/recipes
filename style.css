@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #446061;
+    /* background-color: #446061; */
     /* position: fixed; */
 }
 
@@ -40,7 +40,7 @@ li {
     text-transform: uppercase;
 }
 
-li:hover {
+header nav ul li:hover {
     width: 25%;
     text-align: center;
     border: solid 3px;
@@ -222,6 +222,8 @@ footer nav ul {
     display: flex;
     justify-content: space-evenly;
 }
+
+
 
 
 /* gambiarra do "bem", porque não quero arrumar o css para colocar os direitos */
